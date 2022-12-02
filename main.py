@@ -9,8 +9,9 @@ data = json.load(f)
   
 # Iterating through the json
 # list
-for i in data['emp_details']:
-    print(i)
+while 1 == 1:
+    for i in data['emp_details']:
+        print(i)
   
 # Closing file
 f.close()
